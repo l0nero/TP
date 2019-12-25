@@ -22,7 +22,7 @@ import org.hibernate.SessionFactory;
 
 /**
  *
- * @author 17687
+ * @author 17693
  */
 
 //главный класс, который наследован от HttpServlet
