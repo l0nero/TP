@@ -95,8 +95,7 @@ public class MainServlet extends HttpServlet {
                 {
                     
                     List<Studentyi> students = group.getStudentyis();//создаём коллекцию из данных таблицы Studentyi...
-                    ///...короче заполняем список студентов в так называемую коллекцию(грубо говоря массив) но для...
-                    //...Казакова - это коллекция
+                    
                     
                     //цикл->
                     for(Studentyi student : students){//для каждого студента
@@ -129,7 +128,7 @@ public class MainServlet extends HttpServlet {
                     }
                    // если не подходит группа под условие, т.е. не нвчинается с "А" - ничего не происходит
                 }
-                if(enteredValue!=null){//условие, если введённое число не пустое(т.е. мы точно , инфа 100 , что мыы его ввели
+                if(enteredValue!=null){//условие, если введённое число не пустое(т.е. мы точно ,знаем,что мыы его ввели
                    //цикл->
                     for (Gruppyi group: gruppyi){// перебираем все группы из коллекции Группы
                     if (group.getNazvanie().equals(enteredValue)){//условие - если название группы совпадёт с ввезённым значением, то
@@ -194,6 +193,7 @@ public class MainServlet extends HttpServlet {
             out.close();//закрывает наш PrintWriter, теперь выводить мы не можем в браузер ничего без него
             s.close();//закрываем session
             sf.close();//закрываем SessionFactory
+           
         }
     }
 
