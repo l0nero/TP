@@ -38,7 +38,7 @@ public class Lab1_DB {
             List<Studentyi> students = group.getStudentyis();
             for(Studentyi student : students){
                 System.out.println(student.getNomerZachetki());
-                 List<Studentyi> students = group.getStudentyis();
+                
                 System.out.println(student.getGruppyi());
                 System.out.println(student.getFamiliya());
                System.out.println( student.getImya());
