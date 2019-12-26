@@ -39,7 +39,7 @@ public class Lab1_DB {
             for(Studentyi student : students){
                 System.out.println(student.getNomerZachetki());
                 System.out.println(student.getShifr())
-                System.out.println(student.getGruppyi());
+                System.out.println(student.getNazvanie());
                 System.out.println(student.getFamiliya());
                System.out.println( student.getImya());
                System.out.println( student.getOtchestvo());
