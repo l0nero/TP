@@ -38,11 +38,8 @@ public class Lab1_DB {
             List<Studentyi> students = group.getStudentyis();
             for(Studentyi student : students){
                 System.out.println(student.getNomerZachetki());
-                System.out.println(student.getShifr())
-                System.out.println(student.getNazvanie());
-                System.out.println(student.getFamiliya());
-               System.out.println( student.getImya());
-               System.out.println( student.getOtchestvo());
+                System.out.println(group.getNazvanie());
+                System.out.println(group.getShifr());
             }
         }   
         s.close();
