@@ -31,6 +31,7 @@ public class Studentyi  implements java.io.Serializable {
 // тут записаны характеристкики(свойства)(ФИО и т.д) , которыми долженОбладатьКаждыйСтудент
      private long nomerZachetki;//long  - это тип переменной для длинных чисел...
      private Gruppyi gruppyi;
+     private Integer shifr
      private String familiya;//вот например свойство, которым Должен обладать студент .долженИметьФамилию
      private String imya;
      private String otchestvo;
